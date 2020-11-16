@@ -19,5 +19,5 @@ unsigned int transportujFlota(unsigned int towar)
         if (dynamic_cast<Zaglowiec*>(s1)) zagl_count++;
         delete s1;
         if (sum >= towar) return zagl_count;
-    return 0;
+    }
 }
